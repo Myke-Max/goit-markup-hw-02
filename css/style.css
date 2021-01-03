@@ -93,6 +93,7 @@ body {
 }
 .contacts-list .link {
   color: var(--general-color-text);
+  text-decoration: none;
 }
 .contacts-list .link:hover,
 .contacts-list .link:focus {
