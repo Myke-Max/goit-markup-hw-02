@@ -21,8 +21,8 @@
   --contacts-color: rgba(255, 255, 255, 0.6);
   --background-color-blue: #2f303a;
   --text-title-white: #ffffff;
-  --bgc-team: #e5e5e5;
-  --bgc-button: #f5f4fa;
+  --bgc-button: #e5e5e5;
+  --bgc-team: #f5f4fa;
 }
 /* Body */
 body {
@@ -37,7 +37,7 @@ body {
   color: #212121;
   font-family: raleway, sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
@@ -61,12 +61,12 @@ body {
 /* site-nav */
 .site-nav .link {
   color: var(--title-text-color);
-  font-family: Roboto;
-  font-style: normal;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -76,8 +76,8 @@ body {
 }
 .site-nav .link-blue {
   color: var(--accent-color);
+  text-decoration: none;
 
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -86,7 +86,6 @@ body {
 
 /* contacts-list up */
 .contacts-list {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -95,8 +94,8 @@ body {
 .contacts-list .link {
   color: var(--general-color-text);
 }
-.contacts-list .list:hover,
-.contacts-list .list:focus {
+.contacts-list .link:hover,
+.contacts-list .link:focus {
   color: var(--accent-color);
 }
 
@@ -106,7 +105,7 @@ body {
 }
 .hero .title {
   color: var(--text-title-white);
-  font-style: normal;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -125,15 +124,13 @@ body {
 .qualities .title {
   color: var(--title-text-color);
 
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
 .qualities .text {
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -142,7 +139,7 @@ body {
 .product-work .title {
   color: var(--title-text-color);
 
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
@@ -151,8 +148,8 @@ body {
 /* team-section */
 .team-section .title {
   color: var(--title-text-color);
-  font-style: normal;
-  font-weight: bold;
+
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -162,7 +159,6 @@ body {
 }
 
 .team-section .text {
-  font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.19;
@@ -172,6 +168,11 @@ body {
   background-color: var(--bgc-team);
 }
 
+.team-section .bgc-foto {
+  background-color: #fff;
+  width: 270px;
+  height: 368;
+}
 /* Footer */
 .footer {
   background-color: var(--background-color-blue);
@@ -181,7 +182,7 @@ body {
   color: var(--text-title-white);
 
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -189,7 +190,7 @@ body {
 .footer .info {
   color: var(--general-color-text);
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -198,9 +199,8 @@ body {
 
 .filter-button .link {
   color: var(--title-text-color);
-  background-color: var(--bgc-team);
+  background-color: var(--bgc-button);
 
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -218,16 +218,14 @@ button {
 .portfolio .title {
   color: var(--title-text-color);
 
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 
 .portfolio .text {
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
 }
