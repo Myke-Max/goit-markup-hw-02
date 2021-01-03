@@ -194,6 +194,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  text-decoration: none;
 }
 /* Portfolio HTML */
 /* filter portfolio */
@@ -233,4 +234,9 @@ button {
 
 .portfolio .link {
   text-decoration: none;
+}
+
+.portfolio .section {
+  width: 370px;
+  height: 404px;
 }
