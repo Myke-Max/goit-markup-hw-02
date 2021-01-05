@@ -80,7 +80,7 @@ body {
 
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
@@ -157,10 +157,13 @@ body {
 }
 .team-section .name-title {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
 }
 
 .team-section .text {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
 }
@@ -201,7 +204,7 @@ body {
 
 .filter-button .link {
   color: var(--title-text-color);
-  background-color: var(--bgc-button);
+  background-color: var(--bgc-team);
 
   font-weight: 500;
   font-size: 16px;
@@ -234,6 +237,9 @@ button {
 
 .portfolio .link {
   text-decoration: none;
+}
+.portfolio .link:visited {
+  color: var(--general-color-text);
 }
 
 .portfolio .section {
